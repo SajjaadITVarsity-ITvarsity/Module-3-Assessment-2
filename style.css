@@ -1,0 +1,249 @@
+/*========== HOME PAGE ==========*/
+
+#home-logo-img {
+    width: 90px;
+    display: block;
+    margin: auto;
+    padding: 25px 10px 10px 10px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #ff7043;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 5px solid #ffab40;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+}
+
+.food-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.food-item {
+    background-color: #fff;
+    border: 2px solid #ffab40;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px;
+    text-align: center;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.food-item img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.food-item h2 a {
+    color: #ff7043;
+    text-decoration: none;
+}
+
+.food-item p {
+    color: #777;
+}
+
+/* Food Detail Page */
+.food-detail {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 2px solid #ffab40;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.food-detail img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.food-detail h2 {
+    color: #ff7043;
+}
+
+.food-detail p {
+    color: #777;
+    margin: 10px 0;
+}
+
+.food-detail h3 {
+    color: #ff7043;
+}
+
+.food-detail ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+.food-detail ul li {
+    margin: 5px 0;
+}
+
+form {
+    margin-top: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+    color: #ff7043;
+    font-weight: bold;
+}
+
+form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #ff7043;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #ff7043;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+form button:hover {
+    background-color: #ffab40;
+}
+
+/* Footer */
+footer {
+    background-color: #ff7043;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-top: 5px solid #ffab40;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .food-items {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .food-item {
+        width: 80%;
+    }
+}
+
+/*===== HOME PAGE MENU =====*/
+
+.home-menu-item {
+    text-decoration: none;
+    text-transform: uppercase;
+    
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    border: 5px solid white;
+    
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 80%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: inherit; /* Adjust line spacing */
+    color: #333; /* Text color */
+}
+
+/* Container for the About section */
+.about-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Heading styles */
+.about-container h1 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+    line-height: 1.2; /* Adjust heading line spacing */
+}
+
+.about-container h3 {
+    font-size: 1.5em;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+    line-height: 1.2; /* Adjust subheading line spacing */
+}
+
+/* Paragraph styles */
+.about-container p {
+    font-size: 1em;
+    margin-bottom: 1em;
+    line-height: 1.4; /* Adjust paragraph line spacing */
+}
+
+/* Specific styles for section headings */
+.about-container .section-heading {
+    font-size: 1.2em;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    line-height: 1.2; /* Adjust section heading line spacing */
+}
